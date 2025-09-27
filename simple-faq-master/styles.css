@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400 700;
+    background-color: whitesmoke;
+}
+
+.headersection {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 2em;
+}
+
+h1 {
+    margin: auto 3em;
+    padding: 20px;
+    padding-bottom: 10px;
+    font-size: 3em;
+    word-spacing: 0.5rem;
+    color: #0f0f0f
+}
+
+.header-info {
+    padding-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+section {
+    margin: 3em 20em;
+    padding: 2em;
+}
+
+h2 {
+    color: #0f0f0f
+}
+
+.faq1 h2 {
+    padding-bottom: 2rem;
+}
+
+.ans1 p {
+    padding-bottom: 1rem
+}
+
+.ans1,
+.steps,
+.caption {
+    color: #333;
+}
+
+.steps {
+    padding-left: 2.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.bold {
+    color: #0f0f0f;
+}
+
+ol li {
+    line-height: 1.8;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:any-link {
+    color: hsl(240, 76%, 64%);
+}
+
+.caption {
+    padding-bottom: 2rem;
+}
+
+.faq2 h2 {
+    padding: 2rem 0;
+
+}
+
+ul li {
+    line-height: 1.8;
+}
+
+hr {
+    opacity: 0.4;
+    width: 500px;
+}
+
+/* -----  Mobile Version ----- */
+
+@media screen and (min-width: 320px) {
+    body {
+        overflow: scroll;
+        min-height: 100vh;
+    }
+
+
+
+    h1 {
+        font-size: 2rem;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .header-info {
+        margin-top: 1px;
+        font-size: 15.5px;
+        text-align: center;
+    }
+
+    section {
+        margin: 20px;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    .ans1 p {
+        font-size: 15px;
+    }
+
+
+    .steps {
+        font-size: 14px;
+    }
+
+    .caption {
+        font-size: 16.2px;
+    }
+
+    hr {
+        width: calc(80vw)
+    }
+}
+
+/* -----  Tablet Version ----- */
+
+@media screen and (min-width: 1024px) {
+    body {
+        overflow: scroll;
+    }
+
+    h1 {
+        font-size: 3rem;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .header-info {
+        margin-top: 1px;
+        font-size: 1rem;
+    }
+
+    section {
+        margin: 3em;
+        margin-left: 15em;
+        margin-right: 15em;
+        padding: 1em;
+    }
+
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .ans1 p {
+        font-size: 16px;
+    }
+
+
+    .steps {
+        font-size: 14px;
+    }
+
+    .caption {
+        font-size: 16px;
+    }
+
+    hr {
+        width: calc(70vw - 10px)
+    }
+}
+
+/* ----- Desktop Version ----- */
+
+@media screen and (min-width: 1440px) {
+    body {
+        overflow: scroll;
+    }
+
+    h1 {
+        font-size: 3rem;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .header-info {
+        margin-top: 1px;
+        font-size: 1.5rem;
+    }
+
+    section {
+        margin: 3em 15em;
+        margin-left: 20em;
+        padding: 2em;
+    }
+
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .ans1 p {
+        font-size: 1.3rem;
+    }
+
+
+    .steps {
+        font-size: 1.1rem;
+    }
+
+    .caption {
+        font-size: 1.3rem;
+    }
+
+    hr {
+        max-width: 50vw;
+        ;
+    }
+}
